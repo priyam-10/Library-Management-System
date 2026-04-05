@@ -1,36 +1,40 @@
-# 📚 Library-Management-System
-A simple and efficient Command-Line Interface (CLI) based Library Management System developed using Python. This project helps manage library operations such as user accounts, book inventory, issuing and returning books, and admin controls using JSON-based data storage.
-
 # 📚 Library Management System (Python)
 
 ## 🔹 Description
-This is a simple CLI-based Library Management System built using Python.  
-It allows users to:
-- Create account
-- Login
-- Issue books
-- Return books
-- Update details
+A Command-Line Interface (CLI) based Library Management System built using Python. It helps manage users, books, and transactions efficiently using JSON storage.
 
-Admin can:
-- Add books
-- Update quantity
-- View book list
+## 🚀 Features
+- User Account Creation & Login
+- Admin Login System
+- View Book List
+- Issue & Return Books
+- Update User Details
+- Add Books (Admin)
+- Update Book Quantity
 
-## 🔹 Technologies Used
+## 🛠️ Technologies Used
 - Python
-- JSON (for data storage)
+- JSON
+- File Handling
+- OOP Concepts
 
-## 🔹 Features
-- Random account generation
-- Book issue/return system
-- Admin panel
-- Data stored in JSON files
+## 📂 Project Structure
+Library-Management-System/
+│
+├── main.py
+├── data.json
+├── book.json
+└── README.md
 
-## 🔹 How to Run
+## ▶️ How to Run
 1. Install Python
 2. Run:
+   python main.py
 
+## 📌 Future Improvements
+- GUI (Tkinter)
+- Database (MySQL)
+- Web version (Flask)
 
-## 🔹 Author
+## 👨‍💻 Author
 Priyam Singh
