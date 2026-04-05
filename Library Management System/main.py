@@ -270,6 +270,7 @@ library = lib_management()
 
 
 while True :           # true statement for login and new account
+    # This flag is checked by the outer menu loop; keep it True only when app should fully exit.
     logout = False
 
     print("\n---- Welcome to Library management System ----\n")
@@ -363,7 +364,10 @@ while True :           # true statement for login and new account
                         logout = True
                         break
             
+            # Problem: user submenu sets logout=True when user selects 6 (logout).
+            # If we break without resetting, the outer loop also sees True and ends the program.
             if logout :
+                logout = False
                 break
 
                 
